@@ -1,0 +1,166 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+#title-h1{
+    font-size: 3rem;
+    margin-left: 9px;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 145px;
+}
+
+#column-1{
+    padding: 1% 7%;
+}
+
+/* Navbar  */
+#My-nav{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0px 15px;
+    font-size: 1.5rem;
+}
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Download Button */
+
+.download-btn{
+    margin: 5% 3%;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* 
+.feature-box{
+
+} */
+
+.f-icon{
+    font-size: 3.5rem;
+    color: #ef8172;
+}
+
+.f-icon:hover{
+    color: #ff4c68;
+}
+
+.f-sub{
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.test-h{
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+/* Pricing  */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3%;
+}
+
+/* Call to Action  */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-text{    
+    padding: 0 20%;
+    padding-top: 95px;
+    font-size: 49px;
+}
+
+
+/* Footer  */
+
+#footer{
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+/* Media Query  */
+
+@media (max-width: 1000px) {
+    
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}

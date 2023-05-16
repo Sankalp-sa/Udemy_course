@@ -15,6 +15,12 @@
     color: skyblue !important;
 }
 
+/* Compose */
+
+.btn-div{
+    margin: 12px 0;
+}
+
 .footer-padding {
 	padding-bottom: 60px;
 }
@@ -33,3 +39,4 @@
 	font-size: 12px;
   color: #fff;
 }
+

@@ -4,4 +4,10 @@
 <h1>Home</h1>
 <p><%= homePara %></p>
 
+<% for(let i=0; i<postArr.length; i++){ %>
+    <h1><%= postArr[i].title %></h1>
+    <p><%= postArr[i].content.slice(0,101)+" ..." %> 
+    <a href="/post/<%= postArr[i].title %>">Read more</a>
+    </p>
+<% }; %>
 <%- include("partials/footer"); %>
